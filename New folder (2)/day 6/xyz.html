@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="headingid"> Lorem ipsum dolor sit amet. </h1>
+    <para id="paraid"> Lorem ipsum dolor  liquam unde odio quasi rerum  </para>
+    <button id="buttonid">click me </button>
+</body>
+<script> const data=9;
+    const heading= document.getElementById("headingid");
+    
+    headingid.style.color="blue";
+    const button = document.getElementById("buttonid");
+    button.addEventListener("click", function () {
+        document.body.style.backgroundColor="black";
+        document.body.style.color="white";
+        button.innerText = "please wait ...";
+        button.disabled = true;
+    });
+   </script>
+</script>
+</html>
